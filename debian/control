@@ -1,0 +1,14 @@
+Source: blinker
+Section: python
+Priority: optional
+Maintainer: Arvind Singh <arvind@buzzworks.com>
+Build-Depends: debhelper (>= 9), python-all (>= 2.7), python-setuptools
+Standards-Version: 3.9.4
+
+Package: python-blinker
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Provides: ${python:Provides}
+Description: fast, simple object-to-object and broadcast signaling
+ Blinker provides a fast dispatching system that allows any number of
+ interested parties to subscribe to events, or "signals".
